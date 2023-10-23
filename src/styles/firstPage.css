@@ -1,0 +1,54 @@
+.video-background {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  z-index: -99;
+  &::after {
+    display: block;
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 1280px;
+    height: 720px;
+    z-index: 1;
+  }
+}
+.video-foreground,
+.video-background iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 1280px;
+  height: 720px;
+  pointer-events: none;
+}
+.frame-first-page {
+  width: 231px;
+  height: 317px;
+  padding: 30px 10px 10px 10px;
+  background-color: #86d3f4;
+  margin-left: calc(1280px - 251px);
+  margin-top: 220px;
+}
+.frame-first-page button {
+  background-color: black;
+  color: #86d3f4;
+  font-size: 16px;
+  font-weight: 500;
+  width: 156px;
+  height: 52px;
+}
+.ffp-header {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.ffp-text {
+  width: 146px;
+  font-size: 14px;
+  font-weight: 400;
+  margin: 10px auto 10px auto;
+}

@@ -1,0 +1,14 @@
+.button-close {
+  width: 88px;
+  height: 52px;
+  border: 2px solid black;
+  background-image: url('../images/close.png');
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+  background-color: white;
+  position: absolute;
+  margin-left: 530px;
+  margin-top: 20px;
+  cursor: pointer;
+}

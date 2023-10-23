@@ -1,0 +1,41 @@
+.check {
+  display: block;
+  width: 284px;
+  height: 52px;
+  margin: 10px auto;
+  cursor: pointer;
+  user-select: none;
+  position: relative;
+}
+.check input[type='checkbox'] {
+  position: absolute;
+  z-index: -1;
+  opacity: 0;
+  display: block;
+  width: 0;
+  height: 0;
+}
+.check div {
+  display: inline-block;
+  position: relative;
+  padding: 0 0 0 35px;
+  line-height: 22px;
+}
+.check div:before {
+  content: '';
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  border: 3px solid black;
+  position: absolute;
+  left: 10px;
+  top: 0;
+}
+
+/* Checked */
+.check input[type='checkbox']:checked + div:before {
+  background-image: url('../images/check.png');
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+}

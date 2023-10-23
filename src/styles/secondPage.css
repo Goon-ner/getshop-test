@@ -1,0 +1,83 @@
+.second-page {
+  display: block;
+  width: 1280px;
+  height: 720px;
+  background-image: url('../images/scale_1200\ 1.png');
+}
+.sp-frame {
+  width: 380px;
+  height: 720px;
+  margin: 0;
+  background-color: #86d3f4;
+}
+.sp-header {
+  padding-top: 50px;
+  font-family: 'Roboto';
+  font-size: 26px;
+  font-weight: 400;
+}
+.number {
+  font-size: 32px;
+  font-weight: 700;
+}
+.sp-text {
+  font-size: 14px;
+  font-weight: 400;
+}
+.keyboard {
+  display: flex;
+  flex-wrap: wrap;
+  margin: auto;
+  justify-content: space-between;
+  width: 284px;
+  height: 278px;
+  padding: 20px;
+}
+.keyboard button {
+  width: 88px;
+  height: 52px;
+  border: 3px solid;
+  padding: 12px 30px;
+  background-color: #86d3f4;
+  border-color: black;
+  font-size: 16px;
+  font-weight: 500;
+}
+.clear {
+  font-size: 16px;
+  font-weight: 500;
+  width: 186px !important;
+}
+.keyboard button:active {
+  border: none;
+  background-color: black;
+  color: #ffffff;
+}
+
+.verify-button {
+  width: 284px;
+  height: 52px;
+  border: 2px solid #4e4e4e;
+  background-color: #86d3f4;
+  font-size: 16px;
+  font-weight: 500;
+}
+.verify-button:enabled {
+  border: none;
+  background-color: black;
+  color: #ffffff;
+}
+/* .button-close {
+  width: 88px;
+  height: 52px;
+  border: 2px solid black;
+  background-image: url('../images/close.png');
+  background-repeat: no-repeat;
+  background-size: 24px;
+  background-position: center;
+  background-color: white;
+  position: absolute;
+  margin-left: 1100px;
+  margin-top: 20px;
+  cursor: pointer;
+} */
