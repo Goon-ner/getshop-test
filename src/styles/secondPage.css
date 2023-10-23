@@ -12,13 +12,25 @@
 }
 .sp-header {
   padding-top: 50px;
-  font-family: 'Roboto';
   font-size: 26px;
   font-weight: 400;
 }
 .number {
   font-size: 32px;
   font-weight: 700;
+}
+.invalid-number {
+  color: #ea0000;
+  font-size: 32px;
+  font-weight: 700;
+}
+.invalid-text {
+  margin: 10px auto;
+  color: #ea0000;
+  width: 284px;
+  height: 52px;
+  font-size: 16px;
+  font-weight: 500;
 }
 .sp-text {
   font-size: 14px;
@@ -67,17 +79,3 @@
   background-color: black;
   color: #ffffff;
 }
-/* .button-close {
-  width: 88px;
-  height: 52px;
-  border: 2px solid black;
-  background-image: url('../images/close.png');
-  background-repeat: no-repeat;
-  background-size: 24px;
-  background-position: center;
-  background-color: white;
-  position: absolute;
-  margin-left: 1100px;
-  margin-top: 20px;
-  cursor: pointer;
-} */
